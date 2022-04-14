@@ -1,0 +1,97 @@
+body{
+    background-image: url("the-simpsons-homer-simpson-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Plateau {
+    float : left;
+    width : 400px;
+    border-radius : 10px black groove;
+    border-width: 4px;
+    border-color: black;
+    background-image: url("P24398450D4448227G.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    margin: 20px;
+}
+
+img {
+    height:136px;
+    width:136px;
+}
+legend {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#timer {
+    width : 200px;
+    margin-left : 900px;
+    margin-top : 100px;
+    text-align: center;
+    background-color : yellow;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black;
+    font-size : 22px;
+    font-weight: bold;
+    
+}
+
+#cptChrono {
+    color: black;
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#buttons {
+   margin-left :900px;
+}
+
+#btnDemarrer {
+    font-weight: bold;
+    font-size: 18px;
+    height: 30px;
+    border-radius : 10px;
+    border-color: rgb(252, 85, 113);
+    border-width: 5px;
+    background-color: rgb(216, 191, 158);
+    color: black;
+}
+
+#btnRedemarrer {
+    font-weight: bold;
+    font-size: 18px;
+    height: 30px;
+    border-radius : 10px;
+    border-color: rgb(252, 85, 113);
+    border-width: 5px;
+    background-color: rgb(216, 191, 158);
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Simpson', arial;
+    color: yellow;
+    font-style : oblique;
+    text-shadow : 0 0 4px #000,0 0 4px #000, 0 0 4px #000;
+}
+
+#score{
+    width: 200px;
+    margin-left: 900px;
+    text-align: center;
+    background-color : rgb(37, 243, 10);
+    font-weight : bold;
+    border-color: black;
+    border-width: 5px;
+}
+
+#Score{
+    font-size : 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

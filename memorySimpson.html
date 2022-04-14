@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Memory Simpson</title>
+        <meta-viewport content="width=device-width, initial-scale=1.0"></meta-viewport>
+        <meta-charset-utf-8>
+        <link rel="stylesheet" href="memorySimpson.css">
+    </head>
+    <body>
+        <h1>Bienvenue au jeu MEMORY des SIMPSON</h1>
+        <fieldset id="Plateau">
+            <legend>Plateau de cartes</legend>
+            <table id="tapis">
+                <tr>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                </tr>
+                <tr>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                </tr>
+                <tr>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                </tr>
+                <tr>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                    <td><img alt="doscarte" src="dos.jpg"/></td>
+                </tr>
+            </table>
+        </fieldset>
+        <div id="timer">
+            <fieldset>
+                Timer
+                <p id="cptChrono">00:00:00:00</p>
+            </fieldset>
+        </div>
+        <br/>
+        <div id="score">
+            <fieldset>
+                <p id="Score">0</p>
+                <p>Paires trouvées</p>
+            </fieldset>
+        </div>
+        <br/>
+        <div id="buttons">
+            <input type="button" value="D&eacute;marrer une partie" id="btnDemarrer">
+            <br/><br/>
+            <input type="button" value="Red&eacute;marrer la partie" id="btnRedemarrer">
+        </div>
+        <script src="memorySimpson.js"></script>
+    </body>
+</html>
